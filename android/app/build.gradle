@@ -119,5 +119,8 @@ dependencies {
         implementation jscFlavor
     }
 }
-
+project.ext.vectoricons = [
+    iconFontNames:  [ 'MaterialIcons.ttf', 'EvilIcons.ttf','AntDesign.ttf','Entypo.ttf','Evilcons.ttf','Feather.ttf','FontAwesome.ttf','FontAwesome5_Brands.ttf','FontAwsome5_Regular.ttf','FontAwsome5_Solid.ttf','FontAwsome6_Brands.ttf','FontAwsome6_Regular.ttf','FontAwsome6_Solid.ttf','Fontisto.ttf','Foundation.ttf','lonicons.ttf','MaterialCommunitylcons.ttf','MaterialCommunitylcons.ttf','Materiallcons.ttf','Octicons.ttf','SimpleLinelcons.ttf','Zocial.ttf']
+]
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
