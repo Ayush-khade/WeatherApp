@@ -33,7 +33,7 @@ import{Text,View,Button} from 'react-native'
 
 const App=()=>{
   return(<>
-  <Text style={{color:"red",fontSize:20,alignSelf:"center",marginTop:100,fontWeight:"bold"}}>Ayush Khade is a programmer</Text>
+    <Text style={{ color: "red", fontSize: 20, alignSelf: "center", marginTop: 100, fontWeight: "bold" }}>Ayush Khade is a programmer</Text>
   </>)
 }
 
