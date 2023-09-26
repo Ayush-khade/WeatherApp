@@ -17,9 +17,6 @@ const App=()=>{
       <stack.Screen name="Second" component={Secondscreen}/>
       <stack.Screen name="Third" component={Third}/>
       </stack.Navigator>
-         
-      
-
     </NavigationContainer>
     
   )
