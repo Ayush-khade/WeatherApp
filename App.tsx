@@ -9,7 +9,6 @@ const App = () => {
       <Text style={{ textAlign: 'center' }}>Ayush Khade is programmer</Text>
       <Text style={{ textAlign: 'center' }}>Ayush Khade is programmer</Text>
       <Text style={{ textAlign: 'center' }}>Ayush Khade is programmer</Text>
-
       <Text style={{ textAlign: 'center' }}>Ayush Khade is programmer</Text>
       <Text style={{ textAlign: 'center' }}>Ayush Khade is programmer</Text>
       <Text style={{ textAlign: 'center' }}>Ayush Khade is programmer</Text>
